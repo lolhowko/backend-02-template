@@ -13,8 +13,8 @@ const getUser = (request, response) => {
 
 const createUser = (request, response) => {
   //Create new user
-  response.status(200);
-  response.send("Hellofrom POST!");
+  response.status(201);
+  response.send(request.body);
 };
 
 const updateUser = (request, response) => {
