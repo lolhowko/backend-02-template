@@ -1,3 +1,6 @@
+const Book = require("../models/book");
+
+
 const getBooks = (request, response) => {
   //GET ALL books
   response.status(200);
